@@ -1,0 +1,28 @@
+.container{
+    
+    width: 165px;
+    height: 620px;
+    position: relative;
+    top: 200px;
+    left: 90px;
+   overflow: hidden;
+}
+
+.sprite{
+    width: 600px;
+    height: 600px;
+    background: url(gZ3c5-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 0;
+    animation: galaw 0.8s steps(4) infinite;
+}
+
+@keyframes galaw{
+    
+    to{
+        
+        background-position: -600px 0;
+        
+    }
+}
