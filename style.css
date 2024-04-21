@@ -16,6 +16,7 @@
     background-size: cover;
     background-position: 0px 0;
     animation: galaw 0.8s steps(4) infinite;
+    image-rendering: pixelated;
 }
 
 @keyframes galaw{
